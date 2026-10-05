@@ -1,0 +1,13 @@
+.skillcards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.skill-card {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px;
+    background: white;
+    box-shadow: var(--shadow);
+}
