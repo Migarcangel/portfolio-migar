@@ -1,0 +1,9 @@
+.footer {
+    background-color: var(--accent);
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+}

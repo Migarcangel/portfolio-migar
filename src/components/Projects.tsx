@@ -1,4 +1,4 @@
-//import './Projects.css'
+import './Projects.css'
 import ProjectCard from './ProjectCard'
 
 function Projects() {
@@ -7,6 +7,18 @@ function Projects() {
             <h2>Proyectos</h2>
 
             <div className="projectcards">
+                <ProjectCard
+                    title="MindAura Backend"
+                    description="Backend de la aplicación de mi TFG. Plataforma con la que puedes gestionar tu salud mental y emocional."
+                    technologies={['JavaScript', 'MongoDB', 'Express']}
+                    github="https://github.com/Migarcangel/MindAuraBack"
+                />
+                <ProjectCard
+                    title="MindAura Frontend"
+                    description="Frontend de la aplicación de mi TFG. Plataforma con la que puedes gestionar tu salud mental y emocional."
+                    technologies={['Kotlin', 'Jetpack Compose', 'Gradle', 'Android Studio', 'Firebase']}
+                    github="https://github.com/Migarcangel/plataformabienestar"
+                />
                 <ProjectCard
                     title="Potential Crits"
                     description="Mod de Minecraft que añade diferentes efectos relacionados con los golpes críticos."
@@ -25,7 +37,7 @@ function Projects() {
                     title="WonderBoot"
                     description="Aplicación web desarrollada para practicar el desarrollo de aplicaciones con Spring Boot."
                     technologies={['Java', 'Spring Boot', 'Thymeleaf', 'JPA', 'H2']}
-                    github="..."
+                    github="https://github.com/Migarcangel/wonderboot"
                 />
             </div>
         </section>

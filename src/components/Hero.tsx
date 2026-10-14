@@ -1,3 +1,4 @@
+import './Hero.css'
 
 function Hero() {
     return (
@@ -14,7 +15,7 @@ function Hero() {
                 Apasionado por el desarrollo de software y por seguir seguir mejorando como desarrollador.
             </p>
 
-            <div>
+            <div className='hero-links'>
                 <a href="#projects">Ver proyectos</a>
                 <a href="#contact">Contactar</a>
             </div>

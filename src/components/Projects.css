@@ -1,0 +1,48 @@
+.projectcards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.project-card {
+    padding: 25px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background-color: white;
+}
+
+.project-card h3 {
+    margin-top: 0;
+    color: var(--text-h);
+}
+
+.project-card p {
+    color: var(--text);
+    line-height: 1.6;
+}
+
+.project-technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+.project-technologies span {
+    padding: 5px 10px;
+    border-radius: 6px;
+    background-color: var(--accent-bg);
+    border: 1px solid var(--accent-border);
+}
+
+.project-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.project-links a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: bold;
+}

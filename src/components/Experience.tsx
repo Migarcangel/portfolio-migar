@@ -5,26 +5,34 @@ function Experience() {
         <section id="experience" className="experience">
             <h2>Experiencia</h2>
 
-            <h3>¿Quién soy?</h3>
+            <h3>Becario en Cunext Group</h3>
             <p>
-                Soy graduado en Ingeniería Informática y estoy buscando mi primera
-                oportunidad profesional en el desarrollo de software o sistemas informáticos.
+                Marzo 2025 - Junio 2025
+            </p>
+            <p>
+                Participé en el desarrollo de diversas aplicaciones web, colaborando
+                con el equipo y manteniendo conversaciones con clientes para conocer
+                sus necesidades. Trabajé con ASP.NET Core, Microsoft SQL Server,
+                Visual Studio Community y Azure DevOps.
             </p>
 
-            <h3>¿Qué me interesa?</h3>
-
+            <h3>Formación en Java y Spring Boot</h3>
             <p>
-            Me interesa el desarrollo de aplicaciones de cualquier tipo. Tengo buen
-            manejo de bases de datos y Java es mi lenguaje favorito, aunque puedo
-            adaptarme a otros lenguajes y tecnologías. También me interesa el desarrollo de sistemas, 
-            la automatización de tareas y la creación de soluciones que puedan resultar útiles en distintos ámbitos.
+                Junio 2026 - Agosto 2026
+            </p>
+            <p>
+                Completé una formación de CampusMVP centrada en el desarrollo de
+                aplicaciones y servicios web con Java y Spring Boot 4.x.
             </p>
 
-            <h3>¿Cómo trabajo?</h3>
-
+            <h3>Grado en Ingeniería Informática</h3>
             <p>
-                Me gusta entender bien lo que hago, mantener el código limpio y organizado, 
-                trabajar codo con codo para resolver problemas y no rendirme hasta obtener resultados positivos.
+                Universidad de Córdoba | Septiembre 2021 - Septiembre 2025
+            </p>
+            <p>
+                Rama de Software. Trabajo de Fin de Grado: plataforma de bienestar
+                mental y emocional, con una aplicación móvil desarrollada con Kotlin,
+                Firebase Authentication, MongoDB Atlas y Express.js.
             </p>
         </section>
     )
