@@ -3,34 +3,76 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: var(--accent);
-
     padding: 20px 40px;
     position: sticky;
     top: 0;
-}
-
-nav a {
+    z-index: 100; 
+  }
+  
+  nav a {
     text-decoration: none;
     color: #333;
-}
-
-nav > a {
+  }
+  
+  nav > a {
     font-size: 1.3rem;
     font-weight: bold;
-}
-
-nav div {
+  }
+  
+  .nav-links {
     display: flex;
     gap: 30px;
-}
-
-nav div a {
+  }
+  
+  .nav-links a {
     border: 2px solid var(--accent-border);
     background-color: var(--accent-bg);
     padding: 4px 8px;
     border-radius: 16px;
-}
-
-nav div a:hover {
+  }
+  
+  .nav-links a:hover {
     color: #666;
-}
+  }
+  
+  .nav-toggle {
+    display: none;
+    background-color: var(--accent-bg);
+    border: 2px solid var(--accent-border);
+    border-radius: 12px;
+    color: #333;
+    font-size: 1.4rem;
+    line-height: 1;
+    padding: 6px 12px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    nav {
+      flex-wrap: wrap;
+      padding: 14px 20px;
+    }
+  
+    .nav-toggle {
+      display: block;
+    }
+  
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      gap: 10px;
+      margin-top: 14px;
+      max-height: calc(100svh - 70px); 
+      overflow-y: auto;
+    }
+  
+    .nav-links.open {
+      display: flex;
+    }
+  
+    .nav-links a {
+      text-align: center;
+      padding: 10px 8px;
+    }
+  }

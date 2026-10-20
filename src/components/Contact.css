@@ -1,6 +1,7 @@
 .contact-links {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap; 
     gap: 15px;
     margin-bottom: 40px;
 }
